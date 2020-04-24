@@ -1,0 +1,51 @@
+body {
+	font-family: Lato, sans-serif;
+	background-color: green;
+	color: #fff;
+	padding: 0 15%;
+}
+
+h1 {
+	font-weight: 900;
+	text-align: center;
+}
+
+#nav {
+	display: flex; 
+	justify-content: center;
+	list-style-type: none; 
+	font-size: 22px; 
+	text-align: center;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: #fff; 
+	margin: 1rem;
+	border: 2px solid black;
+	padding: .3em .5em;
+	border-radius: 5px;
+	background-color: purple;
+}
+
+a {
+	text-decoration: underline;
+	color: purple;
+	font-weight: 700;
+}
+
+p {
+	font-size: 20px;
+	text-align: center;
+	max-width: 700px;
+	margin: 1em auto;
+}
+
+caption {
+	border: 1px solid #fff;
+	padding: 1em;
+}
+th {
+	text-decoration: underline;
+	
+}

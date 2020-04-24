@@ -1,0 +1,370 @@
+/* 
+    Name:           Scott Alton
+    Assignment:     Lab #3: External Stylesheets
+    Last Modified:  Feb. 23, 2020
+    Description:    This file contains several CSS tags to improve the aesthetic of my webpage for WEBD-2201. I have used basic element 
+                    elements as selectors, and also experimented with different classes to make it easier to apply the styles across
+                    each page I have created so far in the course. 
+*/
+
+/* Main Styles */ 
+
+body {
+    background-color: green;
+    font-family: Asap, Lato, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+a {
+	color: black;
+}
+
+.logo {
+    float: left;
+    margin: 1em 5em;
+    height: 100px;
+}
+
+#header h1 {
+    font-size: 30px; 
+    text-align: center;
+    margin: .5em auto; 
+    padding: .5em;
+    border: 5px dashed #000;
+    width: 50%;
+}
+
+#navigation li a {
+    font-size: 14px;
+    color: #fff;
+    list-style: none;
+    background-color: purple;
+    border: 3px solid #000;
+    padding: .1em .3em;
+    border-radius: 8px;
+    margin: 1rem 1rem;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background-color: darkgreen;
+    text-decoration: underline;
+}
+
+/* Homepage & Lab #1 Styles*/
+
+#welcome {
+    text-align: center;
+}
+
+#welcome p {
+    font-size: 20px;
+    max-width: 750px;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+#welcome a {
+    color: #222;
+}
+
+#welcome a:hover {
+    color: #777;
+}
+
+
+.welcome-photo {
+    width: 320px; 
+    height: 320px; 
+    margin: 2rem;
+}
+
+.dc-logo {
+    display: block; 
+    height: 90px; 
+    width: 200px; 
+    margin: 0 auto 2rem;
+}
+
+/* Lab #2 Styles*/ 
+
+caption {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 1em;
+}
+
+table {
+    margin: auto; 
+    width: 60%; 
+    margin-bottom: 2em;
+    border: 2px solid #000;
+}
+
+th {
+    padding: 1em;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+td {
+    padding: .5em;
+}
+
+#books {
+    width: 70%; 
+    margin: auto; 
+    margin-bottom: 2em;
+}
+
+#schedule {
+    width: 90%; 
+    text-align: center; 
+    margin-bottom: 2em;
+}
+
+.course {
+    background-color: green;
+}
+
+.lunch {
+    background-color: rgb(47, 47, 207);
+}
+
+/* Lab 5 Styles */
+.temperatures {
+	margin: 2rem auto;
+	text-align: center;
+}
+
+.temperatures td 
+{
+	border: 1px solid black;
+	width: 7.5rem;
+}
+
+/* Footer Styles */
+.bottom-rule {
+    margin-bottom: 2rem;
+}
+
+
+/* External Styles Imported from Lab 4 Requirements Folder*/
+#container
+{
+	margin: 2em auto;
+    width: 1200px;
+    background: #fff;
+}
+
+#header
+{
+    background: darkgreen;
+    text-align: center;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+#header img
+{ 
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+	background: #333;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover { 
+	background-color: #ccc; 
+	color: #000;
+}
+
+#navigation
+{
+    vertical-align: top;
+	display: inline-block;
+	width: 300px;
+	padding: 10px 0;
+    list-style-type: none;
+    background: darkgreen;
+    min-height: 300px;
+    border-right: 3px solid #fff;
+}
+
+#navigation ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#navigation ul li {
+    margin: 0.3em 0;
+    line-height: 1.5;
+}
+
+#navigation li a {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#navigation h3 {
+    margin: 0;
+    text-align: center;
+}
+
+#content-container
+{
+    
+	float: left;
+    width: 1200px;
+	background-color: darkgreen;
+    background-repeat: repeat-y;	
+}
+
+#content
+{
+	display: inline-block;
+    width: 800px;
+    color: #fff;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#content-container .text-example-links li {
+    margin: .5em;
+}
+
+#content-container .text-example-links li a {
+    color: #fff;
+}
+
+#content-container .text-example-links li a:hover {
+    color: #777;
+}
+
+#content-container .text-example-links li a:visited {
+    color: #aaa;
+}
+
+#footer
+{
+    clear: both;
+	text-align: right;
+	padding: 1em;
+    height: 8%;
+    background-color: #222;
+    margin-top: 100px;
+}
+
+
+.input-form {
+	position: relative;	
+	border: 5px dashed black;
+	width: 50%;
+	padding: 1.5rem;
+	margin: 0 auto;
+}
+
+.input-form h3 {
+	font-size: 1.8rem;
+	text-decoration: underline;
+}
+
+.input-form input {
+	position: absolute;
+	right: 135px; 		
+}
+
+.input-form input[type=submit] {
+    position: initial;
+    margin: 1rem 200px;
+    padding: .3rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: lightgreen;
+    border:none;
+}
+
+.output-message h3 {
+color: maroon;
+margin: 1rem auto;
+width: 480px;
+}
+
+table {
+	border: 5px dashed black;
+	text-align: center;
+} 
+
+table td {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	width: 50%;
+}
+
+table th {
+	border-bottom: 3px solid black;
+	border-right: 1px solid black;
+	width: 50%;
+}
+
+ul li a {
+	color: #000;
+}
+
+ul li {
+	margin: 1em;
+}
+
+button.btn-register {
+	margin-left: 47%;
+	font-size: 14px;
+    color: #fff;
+    list-style: none;
+    background-color: purple;
+    border: 3px solid #000;
+    padding: .5em 1.1em;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+button.btn-register:hover {
+    background-color: darkgreen;
+    text-decoration: underline;
+}
